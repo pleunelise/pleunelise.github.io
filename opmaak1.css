@@ -1,7 +1,4 @@
-body {
-  background-image: url("plaatje.jpg");
-  background-color: lightblue;
-}
-h1{
-  color: yellow;
+* {
+  marigin: 0px;
+  padding: 0px;
 }
