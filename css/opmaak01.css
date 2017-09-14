@@ -17,3 +17,16 @@ header h1 {
   text-align: left;
   text-shadow: 5px 5px 7px #000000;
 }
+ul li {
+  background: #99d8db;
+  padding: 5px;
+  border: solid 2px white;
+  display: inline;
+}
+ul li a {
+  color: white;
+  text-decoration: none;
+}
+ul li a:hover {
+  color: ##bdcbcc;
+}
