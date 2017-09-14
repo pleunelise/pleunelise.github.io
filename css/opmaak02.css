@@ -1,51 +1,41 @@
 div {
   height:200px;
   width: 200px;
+  color: white;
 }
 
-#zwart {
-  height: 325px;
-  width: 50%;
-  background-color: black;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 1;
-}
-
-#geel {
-  height: 220px;
-  width: 35%;
-  background-color: yellow;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 2;
-}
-
-#blauw {
+#header {
+  float: left;
   height: 200px;
-  width: 30%;
-  background-color: blue;
-  position: absolute;
-  top: 120px;
-  left: 125px;
-  z-index: 3;
-}
-#rood {
-  height: 180px;
-  width: 29%;
-  background-color: red;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  z-index: 4;
+  width: 900px;
+  background-color: black;
 }
 
-#groen {
+#nav {
+  float: left;
+  clear: left;
+  height: 500px;
+  width: 200px;
+  background-color: yellow;
+}
+
+#section {
+  float: left;
+  height: 500px;
+  width: 500px;
+  background-color: blue;
+}
+#aside {
+  float: left;
+  height: 500px;
+  width: 200px;
+  background-color: red;
+}
+
+#footer {
+  clear: left;
+  float: left;
+  height: 100px;
+  width: 900px;
   background-color: green;
-  position: absolute;
-  top: 75px;
-  left: 90px;
-  z-index: 5;
 }
