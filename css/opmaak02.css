@@ -1,17 +1,14 @@
 * {
-  width: 10px;
-  height: 10px;
   margin: 5px;
   padding: 0px;
 }
 
 a {
-  inline: block;
+  display: block;
+  width: 90px;
   background-color: yellow;
 }
 
 ul li {
-  width: 10px;
-  height: 10px;
   list-style-type: none;
 }
