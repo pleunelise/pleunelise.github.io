@@ -1,8 +1,13 @@
-div {
-  background-color: #007272;
-  color: #57CFCF;
+table, tr, td {
+  border-collapse: collapse;
+  border: 5px solid #3C0808;
 }
-div:hover {
-  background-color: #57CFCF;
-  color: #007272;
+
+
+tr:nth-child(even) {
+  background-color: #915151;
+}
+
+tr:nth-child(odd) {
+  background-color: #B97777;
 }
