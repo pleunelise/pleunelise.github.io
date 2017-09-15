@@ -1,41 +1,10 @@
-div {
-  height:200px;
-  width: 200px;
-  color: white;
-}
-
-#header {
-  float: left;
-  height: 200px;
-  width: 900px;
-  background-color: black;
-}
-
-#nav {
-  float: left;
-  clear: left;
-  height: 500px;
-  width: 200px;
-  background-color: yellow;
-}
-
-#section {
-  float: left;
-  height: 500px;
+h1, p {
+  background-color: grey;
+  height: 55px;
   width: 500px;
-  background-color: blue;
-}
-#aside {
-  float: left;
-  height: 500px;
-  width: 200px;
-  background-color: red;
 }
 
-#footer {
-  clear: left;
-  float: left;
-  height: 100px;
-  width: 900px;
-  background-color: green;
+em, #paars {
+  background-color: red;
+  font-weight: bold;
 }
