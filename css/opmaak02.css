@@ -1,12 +1,17 @@
-h1 {
-  display: inline;
-  background-color: grey;
+* {
+  width: 10px;
+  height: 10px;
+  margin: 5px;
+  padding: 0px;
 }
 
-.vierkant {
-  display: inline;
-  background-color: green;
-  height: 100px;
-  width: 100px;
-  margin: 2px;
+a {
+  inline: block;
+  background-color: yellow;
+}
+
+ul li {
+  width: 10px;
+  height: 10px;
+  list-style-type: none;
 }
