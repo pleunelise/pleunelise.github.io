@@ -3,11 +3,15 @@ table, tr, td {
   border: 5px solid #3C0808;
 }
 
-
 tr:nth-child(even) {
   background-color: #915151;
+  color: #B97777;
 }
 
 tr:nth-child(odd) {
   background-color: #B97777;
+  color: #915151;
+}
+a:visited {
+  color: black;
 }
