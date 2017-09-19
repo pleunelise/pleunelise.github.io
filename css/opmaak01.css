@@ -9,9 +9,9 @@ body {
   background-color: lightblue;
 }
 header{
-  background-image: url('../images/logo.png');
+  /*background-image: url('../images/logo.png');
   width: 902px;
-  height: 295px;
+  height: 295px;*/
 }
 header h1 {
   font-size: 300%;
