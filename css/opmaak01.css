@@ -6,7 +6,7 @@
 }
 body {
   font-family: 'Source Code Pro', monospace;
-  background-color: lightblue;
+  background-color: #D4E6FB;
 }
 header{
   /*background-image: url('../images/logo.png');
@@ -20,8 +20,8 @@ header h1 {
   text-shadow: 5px 5px 7px #000000;
 }
 ul li {
-  background: #99d8db;
-  padding: 5px;
+  background: #75A8E0;
+  padding: 10px;
   border: solid 2px white;
   display: inline;
 }
@@ -30,7 +30,10 @@ ul li a {
   text-decoration: none;
 }
 ul li a:hover {
-  color: ##bdcbcc;
+  background: white;
+  color: #75A8E0;
+  padding: 10px;
+  border: solid 2px #75A8E0;
 }
 section article {
   border: 3px solid #3f8696;
@@ -40,7 +43,7 @@ section article {
   background: white;
 }
 footer {
-  background: #cce0e5;
+  background: #ADA6F2;
 }
 footer h3 {
   text-align: center;
