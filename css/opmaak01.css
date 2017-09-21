@@ -15,12 +15,12 @@ header{
 }
 header h1 {
   font-size: 300%;
-  color: black;
+  color: #74A7E0;
   text-align: left;
   text-shadow: 5px 5px 7px #000000;
 }
 ul li {
-  background: #75A8E0;
+  background: #ADA6F2;
   padding: 10px;
   border: solid 2px white;
   display: inline;
@@ -31,19 +31,19 @@ ul li a {
 }
 ul li a:hover {
   background: white;
-  color: #75A8E0;
+  color: #ADA6F2;
   padding: 10px;
-  border: solid 2px #75A8E0;
+  border: solid 2px #ADA6F2;
 }
 section article {
-  border: 3px solid #3f8696;
+  border: 3px solid #47CEA5;
   border-radius: 0px 20px 20px 20px;
   margin: 5px 10px 5px 10px;
   padding: 10px;
-  background: white;
+  background: #D0FBEE;
 }
 footer {
-  background: #ADA6F2;
+  background: #A0C6F0;
 }
 footer h3 {
   text-align: center;
