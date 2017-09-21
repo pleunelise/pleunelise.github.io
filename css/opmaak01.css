@@ -8,11 +8,6 @@ body {
   font-family: 'Source Code Pro', monospace;
   background-color: #D4E6FB;
 }
-header{
-  /*background-image: url('../images/logo.png');
-  width: 902px;
-  height: 295px;*/
-}
 header h1 {
   font-size: 300%;
   color: #74A7E0;
@@ -34,6 +29,13 @@ ul li a:hover {
   color: #ADA6F2;
   padding: 10px;
   border: solid 2px #ADA6F2;
+}
+a {
+  text-decoration: none;
+}
+a:hover{
+  background: #47CEA5;
+  color: #ADA6F2;
 }
 section article {
   border: 3px solid #47CEA5;
