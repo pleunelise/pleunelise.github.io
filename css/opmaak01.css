@@ -34,8 +34,11 @@ a {
   text-decoration: none;
 }
 a:hover{
-  background: #47CEA5;
+  border: #47CEA5;
   color: #ADA6F2;
+}
+img{
+  float: left;
 }
 section article {
   border: 3px solid #47CEA5;
