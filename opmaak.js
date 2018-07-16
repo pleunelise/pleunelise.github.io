@@ -27,6 +27,8 @@ function changeColor() {
   body.style.background = kleur2;
   h1.style.color = kleur1;
 }
+
+
 /* var kleur = document.getElementById("colorFooter");
 kleur.addEventListener("click", veranderKleur);
 
