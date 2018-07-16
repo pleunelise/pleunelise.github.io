@@ -1,3 +1,6 @@
+//var basketball = document.getElementById("basketball");
+//basketball.onclick = verplaatsBasketball;
+setInterval (verplaatsBasketball, 10);
 function bigImg(x) {
     x.style.height = "35px";
     x.style.width = "35px";
@@ -28,7 +31,21 @@ function changeColor() {
   h1.style.color = kleur1;
 }
 
-
+var topBasketball = 20;
+var leftBasketball = 20;
+function verplaatsBasketball(){
+  //alert("hoi");
+  var basketball = document.getElementById("basketball");
+  basketball.style.top = topBasketball + "px";
+  basketball.style.left = leftBasketball + "px";
+  topBasketball = topBasketball + 2;
+  var tekst = document.getElementById("tekst");
+  var random = Math.random() * tekst.getClientRects()[0].width
+  leftBasketball = random;
+  if (tekst.getClientRects()[0].height < topBasketball) {
+    topBasketball = 0;
+  }
+}
 /* var kleur = document.getElementById("colorFooter");
 kleur.addEventListener("click", veranderKleur);
 

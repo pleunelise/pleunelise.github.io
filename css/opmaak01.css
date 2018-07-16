@@ -42,11 +42,15 @@ a:hover {
   border: #47CEA5;
   color: #ADA6F2;
 }
-img {
+img#plaatje {
   float: left;
 }
+img#basketball {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
 section article img {
-  float: left;
   margin-right: 25px;
   margin-bottom: 2px;
 }
