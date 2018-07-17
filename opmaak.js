@@ -37,13 +37,13 @@ function verplaatsBasketball(){
   //alert("hoi");
   var basketball = document.getElementById("basketball");
   basketball.style.top = topBasketball + "px";
-  basketball.style.left = leftBasketball + "px";
-  topBasketball = topBasketball + 2;
+  topBasketball = topBasketball + 1;
   var tekst = document.getElementById("tekst");
   var random = Math.random() * tekst.getClientRects()[0].width
   leftBasketball = random;
   if (tekst.getClientRects()[0].height < topBasketball) {
     topBasketball = 0;
+    basketball.style.left = leftBasketball + "px";
   }
 }
 /* var kleur = document.getElementById("colorFooter");
